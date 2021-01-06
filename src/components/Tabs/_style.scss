@@ -1,0 +1,63 @@
+.chenlegion-tabs {
+
+    .tab-labels,
+    .tab-contents {
+        list-style  : none;
+        padding-left: 0px;
+        display     : flex;
+    }
+
+    .tab-labels {
+        border-bottom: $menu-border-width solid $menu-border-color;
+        box-shadow   : $menu-box-shadow;
+
+        .tab-label {
+            padding: $menu-item-padding-y $menu-item-padding-x;
+            cursor : pointer;
+
+            &.tab-label-active {
+                color        : $menu-item-active-color;
+                border-bottom: $menu-item-active-border-width solid $menu-item-active-color;
+            }
+
+            &.tab-label-disabled {
+                color         : $menu-item-disabled-color;
+                pointer-events: none;
+                cursor        : default;
+            }
+        }
+    }
+
+    .tab-contents {
+        .tab-content {
+            padding   : $menu-item-padding-y $menu-item-padding-x;
+            display: none;
+
+            &.tab-content-active {
+                display: block;
+            }
+        }
+    }
+
+    &.tabs-vertical {
+        display: flex;
+        .tab-labels,
+        .tab-contents {
+            flex-direction: column;
+        }
+
+        .tab-labels {
+            border-bottom: none;
+            border-right : $menu-border-width solid $menu-border-color;
+            box-shadow   : none;
+
+            .tab-label {
+                &.tab-label-active {
+                    color        : $menu-item-active-color;
+                    border-bottom: none;
+                    border-right : $menu-item-active-border-width solid $menu-item-active-color;
+                }
+            }
+        }
+    }
+}

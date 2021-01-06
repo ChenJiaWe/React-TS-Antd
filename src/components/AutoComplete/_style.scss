@@ -1,0 +1,47 @@
+.chenlegion-auto-complete {
+    >ul {
+        padding      : 0;
+        margin-top   : 3px;
+        border       : $menu-border-width solid $menu-border-color;
+        border-radius: $border-radius;
+        box-shadow   : $box-shadow;
+        white-space: nowrap;
+        >li {
+            list-style: none;
+
+            transition: $menu-transition;
+        }
+    }
+
+    .suggestion-ul {
+
+        .suggestion-item {
+            padding: $menu-item-padding-y $menu-item-padding-x;
+            cursor : pointer;
+
+            &.item-highlighted {
+                background: $primary;
+                color     : $white;
+            }
+
+
+
+            &:hover {
+                color: $menu-item-active-color !important;
+            }
+        }
+    }
+
+    .suggestions-loading {
+        padding: 50px;
+
+        .suggestions-loading-item {
+            // 
+            margin-left : auto;
+            margin-right: auto;
+            display     : block;
+        }
+    }
+
+
+}

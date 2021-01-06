@@ -9,8 +9,3 @@ export { default as Select, SOption as Option } from "./components/Select";
 export { default as Tabs } from "./components/Tabs";
 export { default as Transition } from "./components/Transition";
 export { default as Upload } from "./components/Upload";
-
-
-
-
-

@@ -1,0 +1,113 @@
+.chenlegion-select {
+    cursor  : pointer;
+    position: relative;
+
+    .select-input {
+        border: 0.5px solid transparent;
+
+        .icon-wrapper {
+            transform : rotate(0deg);
+            transition: transform .5s ease;
+        }
+
+        &.is-actived {
+            .icon-wrapper {
+                transform: rotate(180deg);
+            }
+        }
+
+        input {
+            cursor       : pointer;
+            outline-color: $btn-link-color !important;
+            border-color : $btn-link-color;
+
+            &:focus {
+                border-style: solid;
+                border-color: #03a9f4;
+                box-shadow  : 0 0 10px #03a9f4;
+
+            }
+
+            &:hover {
+                border-style: solid;
+                border-color: $btn-link-color;
+            }
+        }
+
+        &:hover {
+            border-style : solid;
+            border-color : $btn-link-color;
+            border-width : 0.5px;
+            border-radius: 5px;
+        }
+
+    }
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    .select-ul {
+        margin-top   : 5px;
+        border       : $border-width solid $border-color;
+        border-radius: $border-radius;
+        box-shadow   : $box-shadow-sm;
+        position     : absolute;
+        width        : 100%;
+        background   : $white;
+        z-index: 999;
+
+        .select-option {
+            padding        : $btn-padding-y $btn-padding-x;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+
+            &:hover {
+                background-color: rgba(13, 110, 253, 0.1);
+            }
+
+            &.option-actived {
+                color      : $primary;
+                font-weight: $font-weight-bold;
+            }
+
+            &.option-disabled {
+                background: #e9ecef;
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    .select-options {
+        position          : absolute;
+        z-index           : 100;
+        top               : 0;
+        left              : 0;
+        height            : 100%;
+        display           : flex;
+        max-width         : 90%;
+        justify-content   : space-between;
+        align-items       : center;
+        // flex-wrap      : wrap;
+
+        .option-selected {
+            height          : 80%;
+            padding         : 2px 5px;
+            box-sizing      : border-box;
+            border          : 1px solid rgba(13, 110, 253, 0.2);
+            margin-left     : 6px;
+            border-radius   : 3px;
+            color           : #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+
+            svg {
+                margin-left: 8px;
+            }
+        }
+    }
+}

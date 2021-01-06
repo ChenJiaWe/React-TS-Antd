@@ -1,0 +1,46 @@
+.alert {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    border-radius  : $border-radius;
+    font-size      : $font-size-base;
+    font-weight    : $font-weight-normal;
+    color          : $white;
+    padding        : $btn-padding-y-lg $btn-padding-x-lg;
+    word-break     : break-all;
+    // width          : 50%;
+
+    .alert-content {
+        width: 80%;
+
+        .alert-tittle {
+            font-size  : $font-size-lg;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    .alert-closeIcon {
+        align-self: start;
+        font-size : $font-size-sm;
+        cursor: pointer;
+    }
+    
+}
+
+
+
+.alert-default {
+    background: $primary;
+}
+
+.alert-danger {
+    background: $danger;
+}
+
+.alert-success {
+    background: $success;
+}
+
+.alert-warning {
+    background: $warning;
+}
