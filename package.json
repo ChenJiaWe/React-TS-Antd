@@ -13,10 +13,10 @@
     "UI",
     "React"
   ],
-  "homepage": "https://github.com/15928294509/-React-TS-Antd",
+  "homepage": "https://github.com/ChenJiaWe/React-TS-Antd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/15928294509/-React-TS-Antd"
+    "url": "https://github.com/ChenJiaWe/React-TS-Antd"
   },
   "files": [
     "dist"
