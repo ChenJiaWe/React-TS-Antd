@@ -1,7 +1,7 @@
 import React from "react";
 import {
     cleanup, fireEvent, render,
-    RenderResult, waitFor
+    RenderResult
 } from "@testing-library/react";
 import Select, { SelectProps } from "./select";
 import Option from "./option";

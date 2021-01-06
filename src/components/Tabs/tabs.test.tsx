@@ -1,9 +1,9 @@
 import React from "react";
-import { fireEvent, render, RenderResult, cleanup, waitFor, act } from "@testing-library/react";
+import { fireEvent, render, RenderResult, cleanup } from "@testing-library/react";
 
 
 import Tabs, { TabsProps } from "./tabs";
-import TabItem, { TabItemProps } from "./tabitem";
+import TabItem from "./tabitem";
 
 const testProps: TabsProps = {
     defaultIndex: 0,

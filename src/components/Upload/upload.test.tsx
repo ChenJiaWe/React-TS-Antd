@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom/extend-expect";
 import React from "react";
-import { fireEvent, queryByText, render, RenderResult, waitFor } from "@testing-library/react";
+import { fireEvent,  render, RenderResult, waitFor } from "@testing-library/react";
 import axios from "axios";
 import Upload, { UploadProps } from "./upload";
 import { IconProps } from "../Icon/icon";
