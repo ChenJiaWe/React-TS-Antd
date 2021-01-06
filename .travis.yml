@@ -12,6 +12,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
-  local_dir: stroybook-static
+  local_dir: storybook-static
   on:
     branch: test4
