@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+时隔多月，再次记录一下自己的学习总结，为什么是时隔多月，那是因为作为苦逼的大四学生面临着就业问题，忙于秋招去了，现在已拿到一份还算可以的offer了，以后有机会分享出来一下，本人是全靠自学的，直入主题：
+## 查看项目的方式：
+**直接访问:** https://chenjiawe.github.io/React-TS-Antd/
+**本地运行**:
+1.git clone https://github.com/ChenJiaWe/React-TS-Antd.git
+2.npm install
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210107073103845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg0ODEzMA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210107073103898.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg0ODEzMA==,size_16,color_FFFFFF,t_70)
+当然很简陋（重在学习技术）
+## 使用方式
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javascript
+npm i chenlegion --save
+```
+## 技术栈
+1.React Hook
+2.TS
+3.jest
+4.storybook
+## 项目总结
+Antd在国内被广泛的使用着，作为一名有志向的程序员不仅仅是学会如何使用它，也要有能力去大体了解Antd整个结构，当组件库出现问题的时候，能够快速发现到问题，同时自己学会造简单的轮子，对于技术提升也有着很大提升。还有就是在搭建项目的流程，不仅仅是把核心代码写出来就完事，对于项目的测试往往不能忽视，对代码的测试，不仅能够减少代码的bug，当你需要增加或者减少甚至是重构代码的时候，它也起到构建的作用，可以少走很多弯路，同时对于自动化工具的使用也有利于减少工作量。
+ 
